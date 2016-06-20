@@ -76,9 +76,15 @@ body{
   font-size: 0.8em;
 }
 
+#avatar{
+  filter: url(filters.svg#grayscale);
+  filter: gray;
+  -webkit-filter: grayscale(1);
+}
+
 /* Carousel */
 .banner-text{
-  width: 40%;
+  width: 50%;
   padding-left: 40px !important;
   position: absolute;
   opacity: .8;
@@ -96,7 +102,7 @@ body{
 .banner-text-inner h2 {
   color: #fff;
   font-weight: normal;
-  font-size: 2.2em;
+  font-size: 2.9em;
   float: left;
   text-transform: uppercase;
 }
