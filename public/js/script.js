@@ -79,6 +79,8 @@ $(function(){
   )
 
   // flexslider
-  $('.flexslider').flexslider()
+  $('.flexslider').flexslider({
+    touch: true,
+  })
 
 })
