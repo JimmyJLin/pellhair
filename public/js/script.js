@@ -56,7 +56,7 @@ $(function(){
       $(this).css({"background-color":"#666", "color":"white"})
     },
     function(){
-      $(this).css({"background-color":"white", "color":"black"})
+      $(this).css({"background-color":"transparent", "color":"black"})
     }
   )
 
@@ -65,7 +65,7 @@ $(function(){
       $(this).css({"background-color":"#666", "color":"white"})
     },
     function(){
-      $(this).css({"background-color":"white", "color":"black"})
+      $(this).css({"background-color":"transparent", "color":"black"})
     }
   )
 
@@ -74,11 +74,11 @@ $(function(){
       $(this).css({"background-color":"#666", "color":"white"})
     },
     function(){
-      $(this).css({"background-color":"white", "color":"black"})
+      $(this).css({"background-color":"transparent", "color":"black"})
     }
   )
 
   // flexslider
-  $('.flexslider').flexslider() 
+  $('.flexslider').flexslider()
 
 })
