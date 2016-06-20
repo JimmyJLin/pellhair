@@ -80,7 +80,8 @@ $(function(){
 
   // flexslider
   $('.flexslider').flexslider({
-    touch: true,
+    touch: true
   })
+
 
 })

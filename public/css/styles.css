@@ -3,6 +3,47 @@ body{
   background-color: #f5f5f5;
 }
 
+#bodymenu{
+  padding-top: 10px;
+}
+
+#menuimage{
+  filter: none;
+  -webkit-filter: none;
+}
+
+#card:hover{
+  filter: url(filters.svg#grayscale);
+  filter: gray;
+  -webkit-filter: grayscale(1);
+}
+
+
+#card:hover h2{
+  color: white;
+}
+
+#card:hover p{
+  color: white;
+}
+
+#card:hover div{
+  background-color: red;
+}
+
+.ui.cards>.card{
+  margin: 0em 0em !important;
+}
+
+.ui.card, .ui.cards>.card{
+  width: 500px !important;
+}
+
+#menucard{
+  padding-bottom: 50px;
+}
+
+
 /* Index Page */
 
 
@@ -61,7 +102,7 @@ body{
 }
 
 .banner-text .banner-text-inner p{
-  margin: 20px 0 10px 0;
+  margin: 5px 0 10px 0;
   font-size: 1.125em;
   color: #ddd;
   padding: 0 0 0 4.6%;
