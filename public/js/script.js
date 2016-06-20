@@ -78,6 +78,7 @@ $(function(){
     }
   )
 
-
+  // flexslider
+  $('.flexslider').flexslider() 
 
 })
