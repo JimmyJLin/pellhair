@@ -76,10 +76,17 @@ body{
   font-size: 0.8em;
 }
 
-#avatar{
+/* footer */
+
+#greyhover{
   filter: url(filters.svg#grayscale);
   filter: gray;
   -webkit-filter: grayscale(1);
+}
+
+#greyhover:hover{
+  filter: none;
+  -webkit-filter: none;
 }
 
 /* Carousel */
@@ -156,6 +163,13 @@ p{
 
 /* iPad */
 @media only screen and (min-device-width: 736px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .ui.card, .ui.cards>.card{
+    width: 400px !important;
+  }
+}
+
+/* iPad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   .ui.card, .ui.cards>.card{
     width: 400px !important;
   }
