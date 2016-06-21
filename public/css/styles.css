@@ -14,7 +14,7 @@ body{
 
 #main{
   margin-top: -10px;
-  z-index: 99;
+  z-index: -1;
 }
 
 #menuimage{
