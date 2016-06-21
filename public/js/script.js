@@ -83,5 +83,11 @@ $(function(){
     touch: true
   })
 
+  // sticky menu
+  $('.main.menu').visibility({
+    type: 'fixed'
+  });
+
+
 
 })
