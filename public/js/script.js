@@ -84,6 +84,10 @@ $(function(){
   })
 
   // sticky menu
+  $('.ui.sticky').sticky({
+    context: '#scrollToTop'
+  })
+
   $('.main.menu').visibility({
     type: 'fixed'
   });
