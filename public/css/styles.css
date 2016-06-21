@@ -7,6 +7,10 @@ body{
   padding-top: 10px;
 }
 
+#main{
+  margin-top: -155px;
+}
+
 #menuimage{
   filter: none;
   -webkit-filter: none;
