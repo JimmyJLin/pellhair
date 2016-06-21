@@ -9,6 +9,7 @@ body{
 
 #main{
   margin-top: -155px;
+  z-index: 99;
 }
 
 #menuimage{
@@ -20,6 +21,7 @@ body{
   filter: url(filters.svg#grayscale);
   filter: gray;
   -webkit-filter: grayscale(1);
+  z-index: 0;
 }
 
 

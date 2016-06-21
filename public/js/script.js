@@ -88,6 +88,27 @@ $(function(){
     type: 'fixed'
   });
 
+  $('#stickycolor').on('click', function(){
+    $('body, html').animate({
+      scrollTop: $('#color').offset().top
+    }, 'slow')
+  })
 
+  $('#stickycut').on('click', function(){
+    $('body, html').animate({
+      scrollTop: $('#cut').offset().top
+    }, 'slow')
+  })
 
+  $('#stickytreatment').on('click', function(){
+    $('body, html').animate({
+      scrollTop: $('#treatment').offset().top
+    }, 'slow')
+  })
+
+  $('#stickyspecial').on('click', function(){
+    $('body, html').animate({
+      scrollTop: $('#special').offset().top
+    }, 'slow')
+  })
 })
