@@ -188,12 +188,52 @@ p{
   .ui.card, .ui.cards>.card{
     width: 400px !important;
   }
+
+  #servicepartials{
+    font-size: 175%;
+  }
+
+  #cut{
+    padding-top: 102px;
+  }
+
+  .ui.text.container{
+    font-size: 2.142875rem;
+  }
+
+  #headermenu{
+    font-size: 2.1rem !important;
+  }
+
+  #backtotop{
+    top: 150px !important;
+  }
 }
 
 /* iPhone 5 & 5S */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
   .ui.card, .ui.cards>.card{
     width: 400px !important;
+  }
+
+  #servicepartials{
+    font-size: 175%;
+  }
+
+  #cut{
+    padding-top: 102px;
+  }
+
+  .ui.text.container{
+    font-size: 2.142875rem;
+  }
+
+  #headermenu{
+    font-size: 2.1rem !important;
+  }
+
+  #backtotop{
+    top: 150px !important;
   }
 }
 
@@ -202,6 +242,27 @@ p{
   .ui.card, .ui.cards>.card{
     width: 400px !important;
   }
+
+  #servicepartials{
+    font-size: 175%;
+  }
+
+  #cut{
+    padding-top: 102px;
+  }
+
+  .ui.text.container{
+    font-size: 2.142875rem;
+  }
+
+  #headermenu{
+    font-size: 2.1rem !important;
+  }
+
+  #backtotop{
+    top: 150px !important;
+  }
+
 }
 
 /* iPhone 6plus */
@@ -225,6 +286,10 @@ p{
   #headermenu{
     font-size: 2.1rem !important;
   }
+
+  #backtotop{
+    top: 150px !important;
+  }
 }
 
 /* iPad */
@@ -232,11 +297,51 @@ p{
   .ui.card, .ui.cards>.card{
     width: 400px !important;
   }
+
+  #servicepartials{
+    font-size: 175%;
+  }
+
+  #cut{
+    padding-top: 102px;
+  }
+
+  .ui.text.container{
+    font-size: 2.142875rem;
+  }
+
+  #headermenu{
+    font-size: 2.1rem !important;
+  }
+
+  #backtotop{
+    top: 150px !important;
+  }
 }
 
 /* iPad mini */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   .ui.card, .ui.cards>.card{
     width: 400px !important;
+  }
+
+  #servicepartials{
+    font-size: 175%;
+  }
+
+  #cut{
+    padding-top: 102px;
+  }
+
+  .ui.text.container{
+    font-size: 2.142875rem;
+  }
+
+  #headermenu{
+    font-size: 2.1rem !important;
+  }
+
+  #backtotop{
+    top: 150px !important;
   }
 }
