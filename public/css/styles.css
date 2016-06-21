@@ -72,8 +72,31 @@ body{
 }
 
 #cut, #color, #treatment, #special {
-  padding-top: 48px;
+  padding-top: 65px;
 }
+
+#backtotop{
+  padding-top: 15px;
+  float: right;
+  display: inline;
+  top: 80px !important;
+  right: 0px;
+  z-index: 500;
+  font-size: .75em;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #666;
+  padding: 10px 0 10px 20px;
+  border-radius: 15px 0 0 15px !important;
+  width: 80px;
+}
+
+#backtotopa{
+  background-color: #666;
+}
+
+
 /* Contact Page */
 
 

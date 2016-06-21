@@ -111,4 +111,11 @@ $(function(){
       scrollTop: $('#special').offset().top
     }, 'slow')
   })
+
+  $('#backtotopa').on('click', function(){
+    $('body, html').animate({
+      scrollTop: $('#header').offset().top
+    }, 'slow')
+  })
+
 })
