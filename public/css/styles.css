@@ -208,6 +208,10 @@ p{
   #backtotop{
     top: 150px !important;
   }
+
+  h3 {
+    font-size: 2.28rem !important;
+  }
 }
 
 /* iPhone 5 & 5S */
@@ -234,6 +238,10 @@ p{
 
   #backtotop{
     top: 150px !important;
+  }
+
+  h3 {
+    font-size: 2.28rem !important;
   }
 }
 
@@ -263,6 +271,9 @@ p{
     top: 150px !important;
   }
 
+  h3 {
+    font-size: 2.28rem !important;
+  }
 }
 
 /* iPhone 6plus */
@@ -289,6 +300,10 @@ p{
 
   #backtotop{
     top: 150px !important;
+  }
+
+  h3 {
+    font-size: 2.28rem !important;
   }
 }
 
@@ -317,6 +332,10 @@ p{
   #backtotop{
     top: 150px !important;
   }
+
+  h3 {
+    font-size: 2.28rem !important;
+  }
 }
 
 /* iPad mini */
@@ -343,5 +362,9 @@ p{
 
   #backtotop{
     top: 150px !important;
+  }
+
+  h3 {
+    font-size: 2.28rem !important;
   }
 }
