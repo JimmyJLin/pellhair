@@ -100,8 +100,14 @@ body{
 }
 
 
-/* Contact Page */
+/* About Page */
+#staff{
+  padding-bottom: 25px;
+}
 
+#staff_hype_container{
+  height: 600px !important;
+}
 
 /* Header Page */
 .ui.item.menu, .ui.item.menu .item{
