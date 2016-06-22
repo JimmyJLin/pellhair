@@ -31,8 +31,8 @@ app.get('/services', function(req, res){
   res.render('pages/services')
 })
 
-app.get('/contact', function(req, res){
-  res.render('pages/contact')
+app.get('/about', function(req, res){
+  res.render('pages/about')
 })
 
 app.get('/', function(req, res){
